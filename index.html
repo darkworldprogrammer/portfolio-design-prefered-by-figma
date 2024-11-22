@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" class="css" />
+    <link rel="stylesheet" href="./styles.css" class="css" />
+  </head>
+  <body class="bg-gray-800 mx-3 scroll-smooth">
+    <!-- navbar section started here -->
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="./IMAGES/thedarkworld.png"
+            class="h-8"
+            alt="The Dark World Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >The Dark World</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Get started
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#home"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#services"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar section ended here -->
+    <!-- 1st section start here -->
+    <section class="flex max-w-screen-xl w-full mt-20">
+      <div
+        class="flex flex-wrap md:flex-nowrap justify-center md:justify-evenly w-full flex-col md:flex-row"
+      >
+        <div class="flex max-w-[490px] w-full h-[570px]">
+          <div class="flex flex-col m-auto gap-y-3">
+            <h1 class="text-blue-500 text-xl">Hey</h1>
+            <h2 class="text-blue-700 text-2xl">Welcome Back !</h2>
+            <h3 class="text-yellow-800 text-3xl font-bold">
+              I'm <br />
+              <br />
+              <span class="text-yellow-400 ml-10">Himanshu Kumar Tiwari</span>
+            </h3>
+          </div>
+        </div>
+        <div class="max-w-[490px] w-full h-[570px] flex m-auto">
+          <div
+            id="section1-img"
+            class="max-w-96 max-h-[521.5px] md:ml-auto m-auto"
+          >
+            <img class="w-full" src="./IMAGES/Himanshu.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="min-w-6 w-8 m-auto flex gap-8 md:flex-col justify-center md:ml-2"
+        >
+          <img
+            class="w-16 hover:scale-110"
+            src="./IMAGES/instagram.png"
+            alt=""
+          />
+          <img
+            class="w-16 hover:scale-110"
+            src="./IMAGES/linkedin (1).png"
+            alt=""
+          />
+          <img
+            class="w-16 hover:scale-110"
+            src="./IMAGES/github-logo.png"
+            alt=""
+          />
+          <img
+            class="w-16 hover:scale-110"
+            src="./IMAGES/facebook (1).png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- 1st section ends here -->
+
+    <!-- About section started here -->
+    <section id="about" class="max-w-screen-xl w-full mt-8 scroll-mt-20">
+      <div class="flex justify-center pb-4">
+        <h1 class="text-4xl font-bold">About</h1>
+      </div>
+      <div
+        id="about-cards"
+        class="flex justify-evenly p-4 gap-3 flex-wrap md:flex-nowrap w-full"
+      >
+        <div
+          class="max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex flex-col items-center gap-y-10 bg-[url('Images/about-us.avif')] bg-cover rounded-lg"
+        >
+          <h2 class="text-3xl">Web Development</h2>
+          <h2 class="text-3xl">Data Analytics</h2>
+          <h2 class="text-3xl">DB Management</h2>
+          <h2 class="text-3xl">Web Designing</h2>
+
+        </div>
+        <div
+          class="max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex bg-[url('IMAGES/about1.png')] bg-cover"
+        >
+          <!-- <h2 class="text-2xl text-pink-600">e-Commerce</h2> -->
+        </div>
+      </div>
+    </section>
+    <!-- About section ends here -->
+
+    <!-- service section started here -->
+    <section id="services" class="max-w-screen-xl w-full mt-8 scroll-mt-20">
+      <div class="flex justify-center pb-4">
+        <h1 class="text-4xl font-bold">Our Services</h1>
+      </div>
+      <div
+        id="services-cards"
+        class="flex justify-evenly p-4 gap-3 flex-wrap md:flex-nowrap w-full"
+      >
+        <div
+          class="bg-stone-700 max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex bg-[url('IMAGES/web_design.jpg')] bg-cover"
+        >
+          <h2 class="text-2xl text-pink-600">Web Design</h2>
+        </div>
+        <div
+          class="bg-stone-700 max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex bg-[url('IMAGES/e-commerce-service.jpg')]"
+        >
+          <h2 class="text-2xl text-pink-600">e-Commerce</h2>
+        </div>
+        <div
+          class="bg-stone-700 max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex bg-[url(IMAGES/Portal_Solution.png)] bg-cover"
+        >
+          <h2 class="text-2xl text-pink-600">Web Portals</h2>
+        </div>
+        <!-- <div class="bg-stone-700 max-w-screen-sm w-full h-[370px] justify-center flex">
+          <h2 class="text-2xl text-pink-600">e-Commerce</h2>
+        </div> -->
+      </div>
+    </section>
+    <!-- service section ends here -->
+
+    <!-- Contact section started here -->
+    <section id="contact" class="max-w-screen-xl w-full mt-8 scroll-mt-20">
+      <div class="flex justify-center pb-4">
+        <h1 class="text-4xl font-bold">Contact Us</h1>
+      </div>
+      <div
+        id="about-cards"
+        class="flex justify-evenly p-4 gap-3 flex-wrap md:flex-nowrap w-full"
+      >
+        <div
+          class="max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex"
+        >
+          <!-- <h2 class="text-2xl text-pink-600">Web Design</h2> -->
+          <form
+            id="about-form"
+            action=""
+            class="flex justify-center items-center flex-col bg-black p-6 gap-y-4 rounded-lg my-3 bg-[url(IMAGES/form-bg.webp)]"
+          >
+            <label for="" class="text-blue-400 text-3xl">Form</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Your first name"
+              spellcheck="true"
+            />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Your last name"
+              spellcheck="true"
+            />
+            <input type="number" name="" id="" placeholder="Mobile no." />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Email"
+              spellcheck="true"
+            />
+            <button
+              class="rounded-md bg-green-400 w-36 text-lg hover:bg-red-500"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <div
+          class="max-w-96 max-h-[521.5px] md:max-w-screen-sm w-full h-[370px] justify-center flex bg-[url('IMAGES/contact-us.avif')] bg-cover"
+        >
+          <!-- <h2 class="text-2xl text-pink-600">e-Commerce</h2> -->
+        </div>
+      </div>
+    </section>
+    <!-- Contact section ends here -->
+
+    <!-- Footer section started here -->
+    <footer id="contact" class="max-w-screen-xl w-full mt-8 scroll-mt-20 border-t-2 border-t-gray-700 bg-gray-400 px-3">
+      <div
+        class="flex justify-evenly md:justify-start md:flex-nowrap flex-wrap"
+      >
+        <div
+          class="flex md:w-72 md:h-64 max-w-screen-xl h-10 md:flex-wrap md:gap-2 gap-x-16 items-center"
+        >
+          <img
+            class="hover:scale-110 md:w-24 md:h-24 w-8 h-8"
+            src="./IMAGES/instagram.png"
+            alt=""
+          />
+          <img
+            class="hover:scale-110 md:w-24 md:h-24 w-8 h-8"
+            src="./IMAGES/github-logo.png"
+            alt=""
+          />
+          <img
+            class="hover:scale-110 md:w-24 md:h-24 w-8 h-8"
+            src="./IMAGES/linkedin (1).png"
+            alt=""
+          />
+          <img
+            class="hover:scale-110 md:w-24 md:h-24 w-8 h-8"
+            src="./IMAGES/facebook (1).png"
+            alt=""
+          />
+        </div>
+        <!-- nav card start -->
+        <div
+          class="flex max-w-screen-xl w-full justify-evenly items-center md:flex-nowrap flex-wrap"
+        >
+          <div class=" shadow-sm m-4">
+            <h2 class="font-bold">Home</h2>
+            <div class="flex flex-col text-gray-700">
+              <span class="hover:text-green-500">Why us</span>
+              <span class="hover:text-green-500">About us</span>
+              <span class="hover:text-green-500">Testimonial</span>
+              <span class="hover:text-green-500">FAQ's</span>
+            </div>
+          </div>
+          <div class=" shadow-sm m-4">
+            <h2 class="font-bold">Project</h2>
+            <div class="flex flex-col text-gray-700">
+              <span class="hover:text-green-500">Portfolio</span>
+              <span class="hover:text-green-500">AI Chatbot</span>
+              <span class="hover:text-green-500">e-Commerce Website</span>
+              <span class="hover:text-green-500">Movie & Films Website</span>
+            </div>
+          </div>
+          <div class=" shadow-sm m-4">
+            <h2 class="font-bold">Services</h2>
+            <div class="flex flex-col text-gray-700">
+              <span class="hover:text-green-500">Web Development</span>
+              <span class="hover:text-green-500">App Development</span>
+              <span class="hover:text-green-500">Web Design</span>
+              <span class="hover:text-green-500">Digital Marketing</span>
+            </div>
+          </div>
+          <div class=" shadow-sm m-4">
+            <h2 class="font-bold">24/7 Help</h2>
+            <div class="flex flex-col text-gray-700">
+              <a class="hover:text-green-500" href="mailto:thedarkworld@programmer.net">Email Support</a>
+              <a class="hover:text-green-500" href="">Mob: 91024XXX74</a>
+              <a class="hover:text-green-500" href="">Whatsapp</a>
+              <span>🤩</span>
+            </div>
+          </div>
+        </div>
+        <!-- nav card start -->
+      </div>
+      <div
+        class="flex justify-center border-t-gray-700 border-t-2 h-14 items-center"
+      >
+        &copy 2024<a class="text-pink-600 mx-2 font-bold" href=""
+          >The Dark World</a
+        >
+        <span>|| All Right Reserved</span>
+      </div>
+      <div
+        class="flex justify-center  border-t-gray-700 border-t-2 h-8 items-center"
+      >
+        <a href="./privacy.html">Privacy Policy</a>
+      </div>
+    </footer>
+    <!-- Footer section ends here -->
+
+    <!-- navbar script here -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  </body>
+</html>

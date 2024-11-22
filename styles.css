@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+  cursor: url(./IMAGES/cursor1.png),pointer;
+}
+#section1-img img {
+  border-radius: 8px;
+  border: 1px dotted;
+  border-image: linear-gradient(90deg,red, blue, cyan)1%, 100%;
+  background: linear-gradient(90deg,red,blue,rgba(0, 255, 255, 0.696));
+}
+#services-cards , #about-cards{
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px);
+  /* background: linear-gradient(120deg,violet,pink,blue,red,cyan); */
+}
+
+#about-form input, #about-form textarea {
+  border-bottom: 2px solid cyan;
+  outline: none; 
+  background-color: transparent;
+}
+#about-form input:hover,#about-form textarea:hover {
+  background-color: transparent;
+  border-bottom: 2px solid pink;
+  outline: none;
+}
+#about-form  input::placeholder{
+  color: rgba(255, 255, 255, 0.562);
+}
